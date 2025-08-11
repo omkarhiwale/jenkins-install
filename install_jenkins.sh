@@ -1,7 +1,7 @@
 #!/bin/bash
 #========================================================
 # Jenkins Installation Script (Ubuntu/Debian)
-# Author: Abhay Dandge
+# Author: omkar hiwale
 #========================================================
 
 set -e
@@ -50,3 +50,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 echo -e "\n✅ Jenkins installation complete!"
 echo "🌐 Access Jenkins at: http://<your_server_ip>:8080"
+
